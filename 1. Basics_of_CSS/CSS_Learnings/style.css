@@ -1,3 +1,14 @@
-section {
-    background: greenyellow;
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Patrick+Hand&family=Source+Sans+Pro&display=swap");
+
+#product-overview {
+    background: rgb(234, 52, 49);
+}
+
+h1 {
+    color: white;
+    font-family: "Bellefair", serif;
+}
+
+.section-title {
+    color: #2ddf5c;
 }
