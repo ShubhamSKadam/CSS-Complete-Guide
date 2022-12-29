@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Patrick+Hand&family=Source+Sans+Pro&display=swap");
+
+body {
+    font-family: "Bellefair", serif;
+}
+
+#product-overview {
+    background-color: red;
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+/* Use of combinator */
+#product-overview h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
