@@ -6,6 +6,9 @@ body {
 
 #product-overview {
     background-color: red;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
 }
 
 .section-title {
@@ -14,6 +17,6 @@ body {
 
 /* Use of combinator */
 #product-overview h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
