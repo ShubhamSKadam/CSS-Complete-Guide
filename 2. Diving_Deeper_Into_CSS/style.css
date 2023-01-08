@@ -19,6 +19,7 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
 /* Use of combinator */
@@ -26,10 +27,19 @@ body {
     color: black;
 }
 
+.plan {
+    background: greenyellow;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+}
+
 .main-header {
     padding: 8px 16px;
     width: 100%;
-    background-color:rgb(232, 222, 215); 
+    background-color: rgb(176, 185, 183);
 }
 
 .main-header__brand {
