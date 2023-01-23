@@ -12,6 +12,7 @@ body {
 .main-header {
     padding: 8px 16px;
     width: 100%;
+    position:fixed;
     background-color: rgb(176, 185, 183);
 }
 
