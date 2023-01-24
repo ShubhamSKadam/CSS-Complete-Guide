@@ -14,6 +14,7 @@ body {
     width: 100%;
     position:fixed;
     background-color: rgb(176, 185, 183);
+    z-index: 1 ;
 }
 
 .main-header__brand {

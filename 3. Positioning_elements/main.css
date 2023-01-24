@@ -28,12 +28,4 @@ body {
       margin:10px;
 }
 
-.parent .child-1{
-      position: fixed;
-      width: 500px;
-      margin:0;
-      top:0;
-      left:0;
-      width: 100%;
 
-}
