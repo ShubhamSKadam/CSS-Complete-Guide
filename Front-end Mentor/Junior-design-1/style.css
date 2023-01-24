@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Inter&family=Patrick+Hand&family=Source+Sans+Pro&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin:auto;
+}
+/* Header || Navigation Bar */
+.main-header {
+    background: white;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+.header-nav {
+    text-align: right;
+    display: inline-block;
+    width: calc(100% - 85px);
+}
+
+.header-nav__lists {
+    margin: 0;
+    padding-right: 50px;
+}
+
+.header-nav__list {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.header-nav__list a {
+    color: rgb(115, 114, 114);
+    text-decoration: none;
+}
+
+/* Main Area */
+.main-container {
+    margin-right: 50px;
+    padding-left: 50px;
+    position: relative;
+}
+.main-container__image-web3 {
+    background: url("./images/image-web-3-desktop.jpg");
+    height: 15rem;
+    width: 56rem;
+    background-size: cover;
+    display: inline-block;
+}
+
+.main-container__side-post {
+    display: inline-block;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 30px;
+}
+.main-container__side-post h1 {
+    padding: 18px;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(203, 173, 3);
+}
+
+.main-container__side-post h2 {
+    padding: 0px 15px;
+    color: rgb(223, 223, 223);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-container__side-post p {
+    padding: 0px 15px 15px 15px;
+    color: rgb(161, 159, 159);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+/* Title */
+.main-container__title {
+    width: 30%;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.main-container__title h1{
+    margin:0;
+}
+
+.main-container__desc-container {
+    display: inline-block;
+    width: 35%;
+    background-color: red;
+}
+
+.main-container__desc-container p{
+    margin:0;
+}
