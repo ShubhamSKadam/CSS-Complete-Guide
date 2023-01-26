@@ -1,7 +1,8 @@
-
 #product-overview {
     background: url(img-1.jpg);
     background-size: cover;
+    background-position: left 20% bottom 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 528px;
     padding: 10px;
@@ -15,12 +16,13 @@
 /* Use of combinator */
 #product-overview h1 {
     color: black;
+    padding-top: 20px;
 }
 
-.plan__list{
+.plan__list {
     width: 80%;
-    margin:auto;
-    text-align: center  ;
+    margin: auto;
+    text-align: center;
 }
 
 .plan {
@@ -108,4 +110,3 @@
     width: 30%;
     vertical-align: top;
 }
-
